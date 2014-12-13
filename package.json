@@ -1,0 +1,27 @@
+{
+  "name": "snooze-baselib",
+  "version": "1.0.0-alpha.1",
+  "description": "basic opinionated entities/services for a snoozejs project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iamchairs/snooze-baselib.git"
+  },
+  "keywords": [
+    "snooze",
+    "baselib",
+    "base",
+    "lib",
+    "service",
+    "entity"
+  ],
+  "author": "Micah Williamson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamchairs/snooze-baselib/issues"
+  },
+  "homepage": "https://github.com/iamchairs/snooze-baselib"
+}
