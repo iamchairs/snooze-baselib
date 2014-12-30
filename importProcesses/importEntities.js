@@ -8,7 +8,7 @@ module.exports = function(processes) {
 			if(dest.EntityManager.entityExists(entity)) {
 				dest.warn('Entity Exists: ' + entity.getName());
 			} else {
-				dest.EntityManager.registerEntity(Entity);
+				dest.EntityManager.registerEntity(entity);
 			}
 		}
 	};
