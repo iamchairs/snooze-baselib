@@ -20,8 +20,8 @@
   ],
   "author": "Micah Williamson",
   "license": "MIT",
-  "dependencies": {
-    "snooze": "iamchairs/snooze.git#dev"
+  "dev-dependencies": {
+    "snooze": "1.0.0-alpha.1"
   },
   "bugs": {
     "url": "https://github.com/iamchairs/snooze-baselib/issues"
