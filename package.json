@@ -1,6 +1,6 @@
 {
   "name": "snooze-baselib",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "basic opinionated entities/services for a snoozejs project",
   "main": "main.js",
   "scripts": {

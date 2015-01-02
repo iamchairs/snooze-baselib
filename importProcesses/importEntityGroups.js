@@ -4,7 +4,7 @@ module.exports = function(processes) {
 
 		for(var i = 0; i < entities.length; i++) {
 			var entity = entities[i];
-			dest.log(('+ ' + entity.getName()).blue);
+			dest.log(('+ ' + entity.getType()).blue);
 			if(dest.EntityManager.entityGroupExists(entity)) {
 				dest.warn('Entity Group Exists: ' + entity.getType());
 			} else {
