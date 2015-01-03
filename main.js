@@ -1,7 +1,11 @@
-var snooze = require('snooze');
+(function() {
+	'use strict';
 
-snooze.module('snooze-baselib')
-	.registerEntityGroupsFromPath('entities/*.js')
-	.registerEntitiesFromPath('services/*.js')
-	.registerImportProcessesFromPath('importProcesses/*.js')
-	.registerConfigPreprocessorsFromPath('configPreprocessors/*.js');
+	var snooze = require('snooze');
+
+	snooze.module('snooze-baselib')
+		.registerEntityGroupsFromPath('entityGroups/*.js')
+		.registerEntitiesFromPath('entities/*.js')
+		.registerImportProcessesFromPath('importProcesses/*.js')
+		.registerConfigPreprocessorsFromPath('configPreprocessors/*.js');
+})();

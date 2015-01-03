@@ -11,7 +11,7 @@ Service.compile = function(entity) {
 };
 Service.registerDependencies = function(entity) {
 	if(typeof entity.constructor === 'function') {
-		entity.dependencies = Util.getParams(entity.constructor);
+		entity.dependencies = snooze.Util.getParams(entity.constructor);
 	} else {
 		throw Error('Services expect function constructors. ' + (typeof entity.constructor) + ' given');
 	}
