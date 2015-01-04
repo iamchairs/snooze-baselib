@@ -2,8 +2,8 @@ var snooze = require('snooze');
 
 var Service = new snooze.EntityGroup();
 Service.type = 'service';
-Service.compile = function(entity) {
-	entity.instance = run(entity.constructor);
+Service.compile = function(entity, entityManager) {
+	entity.instance = entityManager.run(entity.constructor);
 
 	if(entity.$compile) {
 		entity.instance.$compile();
