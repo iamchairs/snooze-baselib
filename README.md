@@ -179,8 +179,8 @@ Outputs
     
 ## Import Processes
 
-**importEntities** - Imports entities from all imported modules to the importee module.
-**importEntityGroups** - Imports entityGroups from all imported modules to the importee module.
+**importEntities** - Imports Entities from all imported modules to the importee module. Imported Entities will overwrite existing Entities with the same name.
+**importEntityGroups** - Imports EntityGroups from all imported modules to the importee module. If an importing EntityGroup has the same type as an existing EntityGroup it will be skipped.
 
 ## Config Preprocessors
 
