@@ -1,6 +1,6 @@
 {
   "name": "snooze-baselib",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.3",
   "description": "basic opinionated entities/services for a snoozejs project",
   "main": "main.js",
   "scripts": {
@@ -20,11 +20,15 @@
   ],
   "author": "Micah Williamson",
   "license": "MIT",
-  "dev-dependencies": {
-    "snooze": "1.0.0-alpha.1"
-  },
   "bugs": {
     "url": "https://github.com/iamchairs/snooze-baselib/issues"
   },
-  "homepage": "https://github.com/iamchairs/snooze-baselib"
+  "homepage": "https://github.com/iamchairs/snooze-baselib",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "mocha": "^2.1.0",
+    "should": "^4.4.2",
+    "snooze": "^1.0.0-alpha.3"
+  }
 }
