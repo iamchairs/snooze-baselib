@@ -20,9 +20,6 @@
   ],
   "author": "Micah Williamson",
   "license": "MIT",
-  "dev-dependencies": {
-    "snooze": "1.0.0-alpha.1"
-  },
   "bugs": {
     "url": "https://github.com/iamchairs/snooze-baselib/issues"
   },
@@ -32,6 +29,6 @@
     "grunt-contrib-jshint": "^0.10.0",
     "mocha": "^2.1.0",
     "should": "^4.4.2",
-    "snooze": "^1.0.0-alpha.2"
+    "snooze": "^1.0.0-alpha.3"
   }
 }
